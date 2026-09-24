@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<img src="./assets/cute-garden.svg" width="100%" alt="Cute animated cat and falling leaves"/>
+<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/assets/cute-garden.svg" width="100%" alt="Cute animated cat and falling leaves"/>
 
 </div>
 
