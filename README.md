@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/assets/pacman.svg" width="100%" alt="Animated Pac-Man and ghosts"/>
+<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/pacman.svg" width="100%" alt="Animated Pac-Man and ghosts"/>
 
 </div>
 
