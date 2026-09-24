@@ -19,7 +19,7 @@
 
 <div align="center">
 
-`🐱 YourTomo is generated automatically by GitHub Actions`
+`🐱 YourTomo is generated automatically by GitHub Actions • Midnight mode 🌙`
 
 </div>
 
@@ -28,9 +28,11 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet.svg?v=6">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet-light.svg?v=6">
-  <img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet.svg?v=6" width="100%" alt="Fahri's YourTomo pixel cat"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet-light.svg">
+  <img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet.svg"
+       width="100%"
+       alt="Fahri's YourTomo pixel cat"/>
 </picture>
 
 > 🐱 **YourTomo:** my tiny midnight profile pet that reacts to my GitHub activity.
