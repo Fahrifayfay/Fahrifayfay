@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Animated Pac-Man with ghosts">
+  <rect width="1000" height="260" rx="28" fill="#0d1117"/>
+
+  <!-- stars -->
+  <g fill="#8b949e" opacity=".55">
+    <circle cx="80" cy="55" r="2"/>
+    <circle cx="180" cy="102" r="1.6"/>
+    <circle cx="790" cy="52" r="2"/>
+    <circle cx="900" cy="120" r="1.5"/>
+    <circle cx="680" cy="32" r="1.5"/>
+  </g>
+
+  <!-- maze-like line -->
+  <path d="M70 190 H930" stroke="#30363d" stroke-width="2"/>
+  <path d="M90 70 H300 V125 H430" fill="none" stroke="#21262d" stroke-width="3"/>
+  <path d="M680 125 H820 V70 H910" fill="none" stroke="#21262d" stroke-width="3"/>
+
+  <!-- pellets -->
+  <g fill="#f2cc60">
+    <circle cx="120" cy="190" r="5">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="190" r="5"/>
+    <circle cx="200" cy="190" r="5"/>
+    <circle cx="240" cy="190" r="5"/>
+    <circle cx="280" cy="190" r="5"/>
+    <circle cx="320" cy="190" r="5"/>
+  </g>
+
+  <!-- Pac-Man -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="-95 0;1060 0" dur="8s" repeatCount="indefinite"/>
+    <g transform="translate(0 0)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="0 0 0;0 0 0;0 0 0" dur="1s" repeatCount="indefinite"/>
+        <path d="M0 0 L-34 -24 A42 42 0 1 0 -34 24 Z" fill="#f2cc60">
+          <animate attributeName="d"
+            values="M0 0 L-34 -24 A42 42 0 1 0 -34 24 Z;
+                    M0 0 L-16 -8 A42 42 0 1 0 -16 8 Z;
+                    M0 0 L-34 -24 A42 42 0 1 0 -34 24 Z"
+            dur=".32s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="10" cy="-18" r="4" fill="#0d1117"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ghosts -->
+  <g>
+    <g transform="translate(0 0)">
+      <animateTransform attributeName="transform" type="translate"
+        values="-150 0; 1100 0" dur="11s" repeatCount="indefinite"/>
+      <path d="M0 46 V15 A25 25 0 0 1 50 15 V46 L42 38 L34 46 L25 38 L16 46 L8 38 Z" fill="#ff5f6d"/>
+      <circle cx="18" cy="18" r="6" fill="white"/><circle cx="32" cy="18" r="6" fill="white"/>
+      <circle cx="18" cy="18" r="2.5" fill="#0d1117"/><circle cx="32" cy="18" r="2.5" fill="#0d1117"/>
+    </g>
+    <g transform="translate(0 0)">
+      <animateTransform attributeName="transform" type="translate"
+        values="-430 0; 900 0" dur="12.5s" repeatCount="indefinite" begin="-4s"/>
+      <path d="M0 46 V15 A25 25 0 0 1 50 15 V46 L42 38 L34 46 L25 38 L16 46 L8 38 Z" fill="#58a6ff"/>
+      <circle cx="18" cy="18" r="6" fill="white"/><circle cx="32" cy="18" r="6" fill="white"/>
+      <circle cx="18" cy="18" r="2.5" fill="#0d1117"/><circle cx="32" cy="18" r="2.5" fill="#0d1117"/>
+    </g>
+  </g>
+
+  <text x="500" y="226" text-anchor="middle"
+    font-family="monospace" font-size="12" fill="#8b949e" letter-spacing="4">
+    INSERT COFFEE • WRITE CODE • CHASE BUGS
+  </text>
+</svg>
