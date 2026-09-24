@@ -17,19 +17,27 @@
 
 </div>
 
----
-
-<!-- Midnight Cat -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/midnight-cat.svg"
-     width="100%"
-     alt="Animated midnight cat"/>
+`🐱 YourTomo is generated automatically by GitHub Actions`
 
 </div>
 
+---
 
-> 👾 **Tiny profile game:** Pac-Man + ghosts moving around the profile while you scroll.
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet-light.svg">
+  <img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/dist/pet.svg"
+       width="100%"
+       alt="Fahri's YourTomo pixel cat"/>
+</picture>
+
+> 🐱 **YourTomo:** my tiny midnight profile pet that reacts to my GitHub activity.
+
+</div>
 
 ---
 
