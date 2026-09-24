@@ -25,3 +25,18 @@ jobs:
           accent-color: "#8B7CFF"
           output-dir: "dist"
           attribution: "true"
+
+      - name: Commit generated files
+        run: |
+          if [ -d "dist" ]; then
+            git add -f dist/
+          fi
+
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update YourTomo pet"
+            git push
+          else
+            echo "No generated files to commit."
+          fi
