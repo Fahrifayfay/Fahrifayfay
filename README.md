@@ -144,13 +144,22 @@ A website project created during my learning and PKL experience.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Fahrifayfay&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" alt="GitHub stats"/>
+<img
+  src="https://github-readme-stats.vercel.app/api?username=Fahrifayfay&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=github_dark"
+  alt="GitHub stats"
+/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fahrifayfay&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Top languages"/>
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fahrifayfay&layout=compact&langs_count=8&hide_border=true&theme=github_dark"
+  alt="Top languages"
+/>
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=Fahrifayfay&hide_border=true&theme=transparent" alt="GitHub streak"/>
+<img
+  src="https://streak-stats.demolab.com?user=Fahrifayfay&hide_border=true&theme=github-dark"
+  alt="GitHub streak"
+/>
 
 </div>
 
@@ -160,12 +169,14 @@ A website project created during my learning and PKL experience.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Fahrifayfay&theme=flat&no-frame=true&no-bg=true&margin-w=12&row=1" alt="GitHub trophies"/>
+<img
+  src="https://github-profile-trophy.vercel.app/?username=Fahrifayfay&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"
+  alt="GitHub trophies"
+/>
 
 </div>
 
 ---
-
 ## 🌐 Let's Connect
 
 <div align="center">
