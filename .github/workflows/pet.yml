@@ -21,3 +21,5 @@ jobs:
           timezone-offset-minutes: "420"
           pet-name: "Mochi"
           accent-color: "#8B7CFF"
+          output-dir: "."
+          attribution: "true"
