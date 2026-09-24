@@ -19,11 +19,15 @@
 
 ---
 
+<!-- Midnight Cat -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/pacman.svg" width="100%" alt="Animated Pac-Man and ghosts"/>
+<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/midnight-cat.svg"
+     width="100%"
+     alt="Animated midnight cat"/>
 
 </div>
+
 
 > 👾 **Tiny profile game:** Pac-Man + ghosts moving around the profile while you scroll.
 
