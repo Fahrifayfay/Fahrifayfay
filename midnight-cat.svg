@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Animated midnight cat scene">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="55%" stop-color="#0b1030"/>
+      <stop offset="100%" stop-color="#171343"/>
+    </linearGradient>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171c48"/>
+      <stop offset="100%" stop-color="#080a17"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0%" stop-color="#d9dcff" stop-opacity=".45"/>
+      <stop offset="55%" stop-color="#aeb5ff" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#aeb5ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!-- Midnight sky -->
+  <rect width="1200" height="360" rx="28" fill="url(#sky)"/>
+
+  <!-- soft moon halo -->
+  <circle cx="930" cy="88" r="95" fill="url(#moonGlow)"/>
+  <circle cx="930" cy="88" r="45" fill="#e4e7ff"/>
+  <circle cx="914" cy="74" r="7" fill="#c4c8ef" opacity=".55"/>
+  <circle cx="944" cy="98" r="10" fill="#c4c8ef" opacity=".45"/>
+  <circle cx="948" cy="68" r="5" fill="#c4c8ef" opacity=".42"/>
+
+  <!-- stars -->
+  <g fill="#cbd2ff">
+    <circle cx="92" cy="52" r="2">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="158" cy="112" r="1.6">
+      <animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="272" cy="48" r="1.8">
+      <animate attributeName="opacity" values=".25;.95;.25" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="90" r="1.4">
+      <animate attributeName="opacity" values=".9;.2;.9" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="564" cy="42" r="2">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="75" r="1.6">
+      <animate attributeName="opacity" values="1;.3;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="46" r="1.5">
+      <animate attributeName="opacity" values=".25;.95;.25" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1110" cy="120" r="1.8">
+      <animate attributeName="opacity" values=".8;.15;.8" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- shooting star -->
+  <g opacity=".9">
+    <path d="M1040 42 L930 100" stroke="#dfe4ff" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+    <circle cx="1040" cy="42" r="3" fill="#fff">
+      <animateMotion path="M0 0 L-250 130" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- distant mountains -->
+  <path d="M0 195 L130 126 L215 194 L325 103 L435 192 L545 124 L655 190 L760 112 L870 192 L1000 120 L1200 190 L1200 280 L0 280Z"
+        fill="#11163b" opacity=".95"/>
+  <path d="M0 215 L150 165 L245 218 L370 145 L475 218 L610 166 L730 215 L850 150 L970 216 L1090 160 L1200 210 L1200 280 L0 280Z"
+        fill="#0b1030"/>
+
+  <!-- city skyline -->
+  <rect x="0" y="205" width="1200" height="155" fill="url(#city)"/>
+
+  <g fill="#242b61">
+    <rect x="48" y="236" width="62" height="124"/>
+    <rect x="128" y="218" width="70" height="142"/>
+    <rect x="216" y="251" width="48" height="109"/>
+    <rect x="282" y="226" width="74" height="134"/>
+    <rect x="390" y="246" width="52" height="114"/>
+    <rect x="470" y="212" width="84" height="148"/>
+    <rect x="580" y="239" width="58" height="121"/>
+    <rect x="666" y="200" width="92" height="160"/>
+    <rect x="788" y="234" width="58" height="126"/>
+    <rect x="868" y="216" width="75" height="144"/>
+    <rect x="966" y="248" width="55" height="112"/>
+    <rect x="1040" y="225" width="84" height="135"/>
+    <rect x="1140" y="255" width="42" height="105"/>
+  </g>
+
+  <!-- city lights -->
+  <g fill="#f7d774">
+    <g>
+      <rect x="143" y="238" width="6" height="6">
+        <animate attributeName="opacity" values=".25;1;.25" dur="2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="164" y="270" width="6" height="6"/>
+      <rect x="302" y="242" width="6" height="6">
+        <animate attributeName="opacity" values="1;.25;1" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="326" y="270" width="6" height="6"/>
+      <rect x="492" y="230" width="6" height="6"/>
+      <rect x="520" y="260" width="6" height="6">
+        <animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="693" y="220" width="6" height="6"/>
+      <rect x="721" y="249" width="6" height="6">
+        <animate attributeName="opacity" values=".2;.9;.2" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="893" y="238" width="6" height="6"/>
+      <rect x="915" y="270" width="6" height="6"/>
+      <rect x="1068" y="246" width="6" height="6">
+        <animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- foreground balcony / desk -->
+  <rect x="0" y="305" width="1200" height="55" fill="#060810"/>
+  <rect x="0" y="300" width="1200" height="6" fill="#242946"/>
+
+  <!-- left desk -->
+  <rect x="48" y="252" width="230" height="54" rx="8" fill="#0b0f1d" stroke="#343b64"/>
+  <rect x="75" y="210" width="142" height="70" rx="7" fill="#111629" stroke="#4c5687"/>
+  <rect x="84" y="219" width="124" height="53" rx="4" fill="#050816"/>
+  <g fill="#8f9aff" opacity=".9">
+    <rect x="95" y="231" width="54" height="3" rx="1.5"/>
+    <rect x="95" y="240" width="86" height="3" rx="1.5"/>
+    <rect x="95" y="249" width="67" height="3" rx="1.5"/>
+    <rect x="95" y="258" width="92" height="3" rx="1.5"/>
+  </g>
+  <!-- tiny cat face on screen -->
+  <g stroke="#b6bbff" stroke-width="2" fill="none">
+    <path d="M178 226 l5 -7 7 6 M203 225 l-5 -7 -7 6"/>
+    <path d="M181 230 q5 -5 10 0 q-5 6 -10 0Z"/>
+  </g>
+
+  <!-- main cat -->
+  <g transform="translate(505 220)">
+    <animateTransform attributeName="transform" type="translate"
+      values="505 220;505 216;505 220" dur="3.4s" repeatCount="indefinite"/>
+
+    <!-- tail -->
+    <path d="M70 76 C135 75 148 30 121 26 C99 23 92 48 111 54"
+          fill="none" stroke="#171a2c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M70 76 C135 75 148 30 121 26 C99 23 92 48 111 54"
+          fill="none" stroke="#747aa8" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+
+    <!-- body -->
+    <ellipse cx="0" cy="72" rx="74" ry="55" fill="#1a1d31" stroke="#777dab" stroke-width="2"/>
+
+    <!-- head -->
+    <path d="M-67 16 L-55 -49 L-17 -27 L17 -27 L55 -49 L67 16
+             C67 61 39 84 0 84 C-39 84 -67 61 -67 16Z"
+          fill="#20243a" stroke="#7f85b4" stroke-width="2"/>
+
+    <!-- ears -->
+    <path d="M-54 -40 L-48 -67 L-21 -37Z" fill="#252a42" stroke="#8086b2" stroke-width="2"/>
+    <path d="M54 -40 L48 -67 L21 -37Z" fill="#252a42" stroke="#8086b2" stroke-width="2"/>
+
+    <!-- eyes -->
+    <ellipse cx="-23" cy="4" rx="8" ry="11" fill="#d8dcff">
+      <animate attributeName="ry" values="11;11;1;11;11"
+               keyTimes="0;.82;.86;.9;1" dur="5.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="23" cy="4" rx="8" ry="11" fill="#d8dcff">
+      <animate attributeName="ry" values="11;11;1;11;11"
+               keyTimes="0;.82;.86;.9;1" dur="5.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="-23" cy="4" rx="3" ry="5" fill="#33385f"/>
+    <ellipse cx="23" cy="4" rx="3" ry="5" fill="#33385f"/>
+
+    <!-- face -->
+    <path d="M0 18 L-6 24 L0 29 L6 24 Z" fill="#d5a9bc"/>
+    <path d="M0 29 C-8 36 -14 34 -18 30 M0 29 C8 36 14 34 18 30"
+          fill="none" stroke="#a7acd1" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M-32 28 L-72 24 M-32 36 L-70 39 M32 28 L72 24 M32 36 L70 39"
+          stroke="#7d83aa" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- paws -->
+    <ellipse cx="-36" cy="119" rx="21" ry="10" fill="#171a2c" stroke="#6c72a0" stroke-width="2"/>
+    <ellipse cx="36" cy="119" rx="21" ry="10" fill="#171a2c" stroke="#6c72a0" stroke-width="2"/>
+
+    <!-- floating moon icon -->
+    <g transform="translate(0 -94)">
+      <path d="M0 0 A13 13 0 1 0 11 20 A15 15 0 1 1 0 0Z" fill="#aeb5ff" opacity=".65"/>
+      <animate attributeName="opacity" values=".25;.8;.25" dur="2.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 2;0 -5;0 2" dur="2.8s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- drifting sakura leaves -->
+  <g fill="#c98ec3" opacity=".9">
+    <path d="M0 0 C12 -10 23 3 14 12 C5 21 -8 10 0 0Z">
+      <animateTransform attributeName="transform" type="translate"
+        values="130,-25;180,80;146,190;212,350" dur="10s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="0;120;260;360" dur="5s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <path d="M0 0 C12 -10 23 3 14 12 C5 21 -8 10 0 0Z">
+      <animateTransform attributeName="transform" type="translate"
+        values="360,-30;325,100;392,205;350,350" dur="8.7s" repeatCount="indefinite" begin="-3s"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="45;180;300;420" dur="4.6s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <path d="M0 0 C12 -10 23 3 14 12 C5 21 -8 10 0 0Z">
+      <animateTransform attributeName="transform" type="translate"
+        values="760,-35;710,80;775,195;730,350" dur="11.2s" repeatCount="indefinite" begin="-5s"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="90;210;330;450" dur="5.8s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <path d="M0 0 C12 -10 23 3 14 12 C5 21 -8 10 0 0Z">
+      <animateTransform attributeName="transform" type="translate"
+        values="1030,-25;1070,90;1015,210;1060,350" dur="9.3s" repeatCount="indefinite" begin="-6.5s"/>
+      <animateTransform attributeName="transform" type="rotate"
+        values="20;150;280;410" dur="5.1s" repeatCount="indefinite" additive="sum"/>
+    </path>
+  </g>
+
+  <!-- little caption -->
+  <text x="600" y="334" text-anchor="middle"
+        font-family="monospace" font-size="12"
+        letter-spacing="4" fill="#777ea9">
+    MIDNIGHT CAT • CODE • MUSIC • STARS
+  </text>
+</svg>
