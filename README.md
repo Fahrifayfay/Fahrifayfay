@@ -21,11 +21,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/assets/cute-garden.svg" width="100%" alt="Cute animated cat and falling leaves"/>
+<img src="https://raw.githubusercontent.com/Fahrifayfay/Fahrifayfay/main/assets/pacman.svg" width="100%" alt="Animated Pac-Man and ghosts"/>
 
 </div>
 
-> 🐱 **Tiny profile pet:** a little animated cat + falling leaves to make the profile feel less boring.
+> 👾 **Tiny profile game:** Pac-Man + ghosts moving around the profile while you scroll.
 
 ---
 
