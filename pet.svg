@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Animated midnight cat">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050713"/><stop offset=".55" stop-color="#0d1230"/><stop offset="1" stop-color="#1a1742"/></linearGradient>
+  <radialGradient id="g"><stop stop-color="#eef0ff" stop-opacity=".35"/><stop offset="1" stop-color="#a8afff" stop-opacity="0"/></radialGradient>
+  <filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="340" rx="28" fill="url(#bg)"/>
+<g fill="#e7eaff">
+  <circle cx="85" cy="58" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="118" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="290" cy="68" r="1.7"><animate attributeName="opacity" values=".2;.95;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="430" cy="46" r="1.5"><animate attributeName="opacity" values=".9;.2;.9" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="565" cy="92" r="2"><animate attributeName="opacity" values=".25;1;.25" dur="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="700" cy="50" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
+  <circle cx="840" cy="110" r="1.7"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="1090" cy="60" r="1.8"><animate attributeName="opacity" values=".9;.2;.9" dur="3.1s" repeatCount="indefinite"/></circle>
+</g>
+<circle cx="960" cy="92" r="96" fill="url(#g)"/>
+<circle cx="960" cy="92" r="43" fill="#eef0ff"/>
+<circle cx="944" cy="78" r="7" fill="#ccd1ee" opacity=".55"/><circle cx="977" cy="106" r="10" fill="#ccd1ee" opacity=".45"/>
+<path d="M1040 40 L908 105" stroke="#eef1ff" stroke-width="2" stroke-linecap="round" opacity=".5"><animate attributeName="opacity" values="0;.5;.5;0" dur="7s" repeatCount="indefinite"/></path>
+<circle cx="1040" cy="40" r="3" fill="#fff"><animateMotion path="M0 0 L-240 120" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/></circle>
+<path d="M0 226 L160 140 L290 226 L430 124 L566 226 L710 140 L855 226 L1000 130 L1200 220 V286 H0Z" fill="#0b1030"/>
+<g fill="#171c41"><rect x="40" y="246" width="64" height="67"/><rect x="122" y="220" width="70" height="93"/><rect x="210" y="252" width="52" height="61"/><rect x="280" y="230" width="78" height="83"/><rect x="378" y="254" width="50" height="59"/><rect x="445" y="208" width="86" height="105"/><rect x="550" y="242" width="58" height="71"/><rect x="630" y="198" width="92" height="115"/><rect x="744" y="237" width="60" height="76"/><rect x="824" y="220" width="80" height="93"/><rect x="930" y="250" width="54" height="63"/><rect x="1000" y="215" width="88" height="98"/></g>
+<g fill="#f7d97a"><rect x="140" y="238" width="5" height="7"/><rect x="164" y="263" width="5" height="7"/><rect x="296" y="246" width="5" height="7"/><rect x="325" y="270" width="5" height="7"/><rect x="468" y="226" width="5" height="7"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></rect><rect x="500" y="260" width="5" height="7"/><rect x="650" y="216" width="5" height="7"/><rect x="687" y="248" width="5" height="7"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></rect><rect x="844" y="238" width="5" height="7"/><rect x="1028" y="232" width="5" height="7"/></g>
+<rect y="310" width="1200" height="30" fill="#050712"/><rect y="306" width="1200" height="4" fill="#30365f"/>
+<g filter="url(#s)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0" dur="3.5s" repeatCount="indefinite"/>
+<path d="M700 272 C770 272 794 226 762 218 C736 212 723 239 748 248" fill="none" stroke="#191d32" stroke-width="18" stroke-linecap="round"/><path d="M700 272 C770 272 794 226 762 218 C736 212 723 239 748 248" fill="none" stroke="#7d84b4" stroke-width="2.2"/>
+<ellipse cx="648" cy="274" rx="78" ry="55" fill="#1a1d31" stroke="#7d84b4" stroke-width="2"/>
+<path d="M580 220 L592 153 L625 176 L671 176 L704 153 L717 220 C717 265 689 291 648 291 C607 291 580 265 580 220Z" fill="#20243a" stroke="#858cb9" stroke-width="2.2"/>
+<path d="M593 166 L601 136 L629 173Z" fill="#242940" stroke="#858cb9" stroke-width="2"/><path d="M703 166 L695 136 L667 173Z" fill="#242940" stroke="#858cb9" stroke-width="2"/>
+<path d="M601 151 L604 143 L618 168Z" fill="#b48fa9" opacity=".65"/><path d="M695 151 L692 143 L678 168Z" fill="#b48fa9" opacity=".65"/>
+<ellipse cx="624" cy="217" rx="8" ry="11" fill="#e1e5ff"><animate attributeName="ry" values="11;11;1;11;11" keyTimes="0;.82;.86;.9;1" dur="5s" repeatCount="indefinite"/></ellipse><ellipse cx="672" cy="217" rx="8" ry="11" fill="#e1e5ff"><animate attributeName="ry" values="11;11;1;11;11" keyTimes="0;.82;.86;.9;1" dur="5s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="624" cy="217" rx="3" ry="5" fill="#363c68"/><ellipse cx="672" cy="217" rx="3" ry="5" fill="#363c68"/>
+<path d="M648 232 L642 238 L648 243 L654 238Z" fill="#d6a6bd"/><path d="M648 243 C640 250 634 249 630 245 M648 243 C656 250 662 249 666 245" fill="none" stroke="#a9afd4" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M616 240 L574 236 M616 248 L578 253 M680 240 L722 236 M680 248 L718 253" stroke="#8188b0" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="611" cy="314" rx="23" ry="10" fill="#171a2d" stroke="#7178aa" stroke-width="2"/><ellipse cx="685" cy="314" rx="23" ry="10" fill="#171a2d" stroke="#7178aa" stroke-width="2"/>
+<path d="M648 118 L651 126 L659 129 L651 132 L648 140 L645 132 L637 129 L645 126Z" fill="#bcc3ff"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></path></g>
+<g fill="#bf8cc2"><path d="M0 0 C12 -10 22 2 14 12 C5 20 -8 9 0 0Z"><animateTransform attributeName="transform" type="translate" values="130,-20;180,80;145,190;210,350" dur="10s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="rotate" values="0;120;260;360" dur="5s" repeatCount="indefinite" additive="sum"/></path><path d="M0 0 C12 -10 22 2 14 12 C5 20 -8 9 0 0Z"><animateTransform attributeName="transform" type="translate" values="365,-25;330,95;390,205;350,350" dur="8.6s" repeatCount="indefinite" begin="-3s"/><animateTransform attributeName="transform" type="rotate" values="45;180;300;420" dur="4.8s" repeatCount="indefinite" additive="sum"/></path><path d="M0 0 C12 -10 22 2 14 12 C5 20 -8 9 0 0Z"><animateTransform attributeName="transform" type="translate" values="790,-20;740,85;805,200;760,350" dur="11s" repeatCount="indefinite" begin="-5s"/><animateTransform attributeName="transform" type="rotate" values="90;210;330;450" dur="5.6s" repeatCount="indefinite" additive="sum"/></path></g>
+<text x="600" y="332" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="4" fill="#8087b3">MIDNIGHT CAT • CODE • MUSIC • STARS</text>
+</svg>
