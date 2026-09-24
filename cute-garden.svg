@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Cute animated cat with falling leaves">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#faf9f6"/>
+      <stop offset="1" stop-color="#ece9e1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="260" rx="28" fill="url(#bg)"/>
+  <path d="M0 216 C180 188 315 235 500 210 C690 184 828 226 1000 196 L1000 260 L0 260 Z" fill="#e3dfd6"/>
+
+  <!-- subtle stars -->
+  <g fill="#8b877e" opacity=".38">
+    <circle cx="110" cy="45" r="2">
+      <animate attributeName="opacity" values=".15;.7;.15" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="848" cy="56" r="2">
+      <animate attributeName="opacity" values=".7;.15;.7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="923" cy="102" r="1.8">
+      <animate attributeName="opacity" values=".2;.65;.2" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- falling leaves -->
+  <g>
+    <g fill="#8c9a77">
+      <path d="M0,-12 C14,-10 17,2 6,8 C-5,14 -13,4 -10,-5 C-8,-9 -4,-11 0,-12 Z">
+        <animateTransform attributeName="transform" type="translate"
+          values="90,-20; 125,65; 92,145; 138,245" dur="9s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate"
+          values="0;100;220;360" dur="4.5s" repeatCount="indefinite" additive="sum"/>
+      </path>
+      <path d="M0,-12 C14,-10 17,2 6,8 C-5,14 -13,4 -10,-5 C-8,-9 -4,-11 0,-12 Z">
+        <animateTransform attributeName="transform" type="translate"
+          values="325,-20; 292,72; 350,160; 312,245" dur="10.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate"
+          values="70;180;300;430" dur="5.4s" repeatCount="indefinite" additive="sum"/>
+      </path>
+      <path d="M0,-12 C14,-10 17,2 6,8 C-5,14 -13,4 -10,-5 C-8,-9 -4,-11 0,-12 Z">
+        <animateTransform attributeName="transform" type="translate"
+          values="640,-22; 700,58; 665,144; 718,248" dur="8.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate"
+          values="20;140;265;390" dur="4.9s" repeatCount="indefinite" additive="sum"/>
+      </path>
+      <path d="M0,-12 C14,-10 17,2 6,8 C-5,14 -13,4 -10,-5 C-8,-9 -4,-11 0,-12 Z">
+        <animateTransform attributeName="transform" type="translate"
+          values="820,-20; 770,60; 810,150; 782,245" dur="11s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate"
+          values="120;230;340;470" dur="5.8s" repeatCount="indefinite" additive="sum"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- little cat -->
+  <g transform="translate(500 144)" filter="url(#shadow)">
+    <animateTransform attributeName="transform" type="translate"
+      values="500 144;500 140;500 144" dur="2.8s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="44" rx="80" ry="12" fill="#b8b2a7" opacity=".3"/>
+
+    <!-- tail -->
+    <path d="M67 52 C125 43 121 6 91 8 C74 9 74 28 91 28" fill="none" stroke="#5f5b54" stroke-width="14" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="-4 67 52;4 67 52;-4 67 52" dur="2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- body -->
+    <ellipse cx="0" cy="35" rx="58" ry="42" fill="#6d6961"/>
+    <!-- head -->
+    <path d="M-51 5 L-43 -42 L-15 -24 L15 -24 L43 -42 L51 5 C51 39 30 57 0 57 C-30 57 -51 39 -51 5Z" fill="#77726a"/>
+    <!-- ears -->
+    <path d="M-43 -34 L-37 -57 L-16 -34Z" fill="#77726a"/>
+    <path d="M43 -34 L37 -57 L16 -34Z" fill="#77726a"/>
+    <path d="M-37 -43 L-35 -51 L-24 -36Z" fill="#b48d8d" opacity=".65"/>
+    <path d="M37 -43 L35 -51 L24 -36Z" fill="#b48d8d" opacity=".65"/>
+
+    <!-- eyes -->
+    <ellipse cx="-19" cy="-1" rx="6" ry="8" fill="#22201d">
+      <animate attributeName="ry" values="8;8;1;8;8" keyTimes="0;.82;.86;.9;1" dur="4.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="19" cy="-1" rx="6" ry="8" fill="#22201d">
+      <animate attributeName="ry" values="8;8;1;8;8" keyTimes="0;.82;.86;.9;1" dur="4.8s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- face -->
+    <path d="M0 7 L-5 12 L0 16 L5 12 Z" fill="#b98d8d"/>
+    <path d="M0 16 C-6 22 -11 21 -14 18 M0 16 C6 22 11 21 14 18" fill="none" stroke="#302d29" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M-27 17 L-62 14 M-27 23 L-60 26 M27 17 L62 14 M27 23 L60 26" stroke="#4a4741" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- paws -->
+    <ellipse cx="-29" cy="66" rx="17" ry="8" fill="#5f5b54"/>
+    <ellipse cx="29" cy="66" rx="17" ry="8" fill="#5f5b54"/>
+
+    <!-- tiny floating heart -->
+    <path d="M-3 -73 C-16 -84 -31 -65 -3 -46 C25 -65 10 -84 -3 -73Z" fill="#a98f8b" opacity=".7">
+      <animate attributeName="opacity" values=".2;.9;.2" dur="2.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 4;0 -5;0 4" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="500" y="232" text-anchor="middle" font-family="monospace" font-size="12" fill="#7b766d" letter-spacing="4">
+    STILL CODING • STILL GROWING • STILL VIBING
+  </text>
+</svg>
