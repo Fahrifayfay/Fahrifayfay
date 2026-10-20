@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 26" width="900" height="26" role="img">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="var(--acc)" stop-opacity="0"/><stop offset=".5" stop-color="var(--acc)" stop-opacity="1"/><stop offset="1" stop-color="var(--acc)" stop-opacity="0"/></linearGradient></defs>
+<style>
+:root{--fg:#f4f4f5;--dim:#8b8b93;--acc:#b9a7ff;--line:#3a3a42;--g1:#8b5cf6;--g2:#c6e04a}
+@media (prefers-color-scheme: light){
+:root{--fg:#111114;--dim:#6b6b73;--acc:#6d28d9;--line:#c9c9d1;--g1:#7c3aed;--g2:#7f9a12}}
+
+.pulse{animation:none}
+</style>
+<line x1="0" y1="13" x2="900" y2="13" stroke="var(--line)" stroke-width="1"/><rect x="-220" y="12" width="220" height="2" rx="1" fill="url(#g)"><animateTransform attributeName="transform" type="translate" from="0 0" to="1120 0" dur="4.5s" repeatCount="indefinite"/></rect><g transform="translate(450.0,13)"><rect x="-5" y="-5" width="10" height="10" transform="rotate(45)" fill="none" stroke="var(--fg)" stroke-width="1.5"><animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="9s" repeatCount="indefinite"/></rect></g>
+</svg>

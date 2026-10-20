@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145 48" width="145" height="48" role="img">
+<defs></defs>
+<style>
+:root{--fg:#f4f4f5;--dim:#8b8b93;--acc:#b9a7ff;--line:#3a3a42;--g1:#8b5cf6;--g2:#c6e04a}
+@media (prefers-color-scheme: light){
+:root{--fg:#111114;--dim:#6b6b73;--acc:#6d28d9;--line:#c9c9d1;--g1:#7c3aed;--g2:#7f9a12}}
+
+.p{opacity:0;animation:pin 6s ease-out infinite both;animation-delay:0.0s}
+@keyframes pin{0%{opacity:0;transform:translateY(10px)}8%,100%{opacity:1;transform:translateY(0)}}
+.trace{fill:none;stroke:var(--acc);stroke-width:2;stroke-linecap:round;
+stroke-dasharray:73 259;animation:run 3.2s linear infinite;animation-delay:0.0s}
+@keyframes run{to{stroke-dashoffset:-332}}
+.base{fill:none;stroke:var(--line);stroke-width:1.5}
+</style>
+<g class="p"><rect class="base" x="2" y="2" width="141" height="44" rx="22.0"/><rect class="trace" x="2" y="2" width="141" height="44" rx="22.0"/><g transform="translate(32.00,30.12)"><path fill="var(--fg)" d="M8.98 -8.16Q8.65 -8.76 8.05 -9.07Q7.45 -9.38 6.63 -9.38Q5.22 -9.38 4.37 -8.46Q3.52 -7.53 3.52 -5.98Q3.52 -4.33 4.41 -3.41Q5.3 -2.48 6.87 -2.48Q7.94 -2.48 8.68 -3.03Q9.42 -3.57 9.76 -4.59H6.07V-6.73H12.39V-4.03Q12.07 -2.94 11.3 -2.01Q10.52 -1.07 9.33 -0.49Q8.14 0.09 6.65 0.09Q4.88 0.09 3.49 -0.69Q2.11 -1.46 1.33 -2.84Q0.56 -4.22 0.56 -5.98Q0.56 -7.75 1.33 -9.14Q2.11 -10.52 3.49 -11.3Q4.86 -12.07 6.63 -12.07Q8.77 -12.07 10.24 -11.03Q11.71 -10 12.19 -8.16Z"/></g><g transform="translate(48.45,30.12)"><path fill="var(--fg)" d="M3.96 -11.93V0H1.05V-11.93Z"/></g><g transform="translate(56.97,30.12)"><path fill="var(--fg)" d="M9.64 -11.93V-9.61H6.48V0H3.57V-9.61H0.41V-11.93Z"/></g><g transform="translate(70.52,30.12)"><path fill="var(--fg)" d="M11.39 -11.93V0H8.48V-4.91H3.96V0H1.05V-11.93H3.96V-7.26H8.48V-11.93Z"/></g><g transform="translate(86.44,30.12)"><path fill="var(--fg)" d="M3.91 -11.93V-4.79Q3.91 -3.72 4.44 -3.15Q4.96 -2.57 5.98 -2.57Q7 -2.57 7.55 -3.15Q8.09 -3.72 8.09 -4.79V-11.93H11V-4.81Q11 -3.21 10.32 -2.11Q9.64 -1 8.49 -0.44Q7.34 0.12 5.93 0.12Q4.52 0.12 3.41 -0.43Q2.3 -0.99 1.65 -2.1Q1 -3.21 1 -4.81V-11.93Z"/></g><g transform="translate(101.93,30.12)"><path fill="var(--fg)" d="M10.57 -3.25Q10.57 -1.75 9.53 -0.88Q8.48 0 6.61 0H1.05V-11.93H6.43Q8.25 -11.93 9.27 -11.1Q10.3 -10.27 10.3 -8.84Q10.3 -7.79 9.75 -7.09Q9.2 -6.39 8.28 -6.12Q9.32 -5.9 9.95 -5.09Q10.57 -4.28 10.57 -3.25ZM3.96 -7.11H5.87Q6.58 -7.11 6.96 -7.42Q7.34 -7.74 7.34 -8.35Q7.34 -8.96 6.96 -9.28Q6.58 -9.61 5.87 -9.61H3.96ZM7.63 -3.64Q7.63 -4.27 7.22 -4.62Q6.8 -4.98 6.07 -4.98H3.96V-2.35H6.1Q6.83 -2.35 7.23 -2.68Q7.63 -3.01 7.63 -3.64Z"/></g></g>
+</svg>

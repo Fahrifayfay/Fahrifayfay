@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143 48" width="143" height="48" role="img">
+<defs></defs>
+<style>
+:root{--fg:#f4f4f5;--dim:#8b8b93;--acc:#b9a7ff;--line:#3a3a42;--g1:#8b5cf6;--g2:#c6e04a}
+@media (prefers-color-scheme: light){
+:root{--fg:#111114;--dim:#6b6b73;--acc:#6d28d9;--line:#c9c9d1;--g1:#7c3aed;--g2:#7f9a12}}
+
+.p{opacity:0;animation:pin 6s ease-out infinite both;animation-delay:0.75s}
+@keyframes pin{0%{opacity:0;transform:translateY(10px)}8%,100%{opacity:1;transform:translateY(0)}}
+.trace{fill:none;stroke:var(--acc);stroke-width:2;stroke-linecap:round;
+stroke-dasharray:72 256;animation:run 3.2s linear infinite;animation-delay:0.75s}
+@keyframes run{to{stroke-dashoffset:-328}}
+.base{fill:none;stroke:var(--line);stroke-width:1.5}
+</style>
+<g class="p"><rect class="base" x="2" y="2" width="139" height="44" rx="22.0"/><rect class="trace" x="2" y="2" width="139" height="44" rx="22.0"/><g transform="translate(32.00,30.12)"><path fill="var(--fg)" d="M9.64 -11.93V-9.61H6.48V0H3.57V-9.61H0.41V-11.93Z"/></g><g transform="translate(45.55,30.12)"><path fill="var(--fg)" d="M3.96 -11.93V0H1.05V-11.93Z"/></g><g transform="translate(54.06,30.12)"><path fill="var(--fg)" d="M7.97 0 3.96 -5.27V0H1.05V-11.93H3.96V-6.7L7.94 -11.93H11.36L6.73 -6.09L11.53 0Z"/></g><g transform="translate(69.41,30.12)"><path fill="var(--fg)" d="M9.64 -11.93V-9.61H6.48V0H3.57V-9.61H0.41V-11.93Z"/></g><g transform="translate(82.96,30.12)"><path fill="var(--fg)" d="M0.56 -6Q0.56 -7.75 1.39 -9.15Q2.21 -10.54 3.61 -11.32Q5.02 -12.1 6.7 -12.1Q8.38 -12.1 9.78 -11.32Q11.19 -10.54 11.99 -9.15Q12.8 -7.75 12.8 -6Q12.8 -4.25 11.98 -2.85Q11.17 -1.45 9.78 -0.66Q8.38 0.12 6.7 0.12Q5.02 0.12 3.61 -0.66Q2.21 -1.45 1.39 -2.85Q0.56 -4.25 0.56 -6ZM9.84 -6Q9.84 -7.58 8.98 -8.53Q8.13 -9.47 6.7 -9.47Q5.25 -9.47 4.39 -8.53Q3.54 -7.6 3.54 -6Q3.54 -4.42 4.39 -3.48Q5.25 -2.53 6.7 -2.53Q8.13 -2.53 8.98 -3.49Q9.84 -4.44 9.84 -6Z"/></g><g transform="translate(99.82,30.12)"><path fill="var(--fg)" d="M7.97 0 3.96 -5.27V0H1.05V-11.93H3.96V-6.7L7.94 -11.93H11.36L6.73 -6.09L11.53 0Z"/></g></g>
+</svg>
