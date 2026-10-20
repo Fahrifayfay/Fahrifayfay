@@ -1,16 +1,122 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
 
-<!--
-**Fahrifayfay/Fahrifayfay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="./assets/cat_1.gif" width="100%" alt="Fayy — monochrome kitten banner" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="./assets/profile/tagline.svg" width="100%" alt="Still learning. Still building. Still improving." />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/stars.svg" alt="Stars across my public repositories" /></a>
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/forks.svg" alt="Forks of my public repositories" /></a>
+  <a href="https://github.com/Fahrifayfay?tab=followers"><img src="./assets/profile/followers.svg" alt="GitHub followers" /></a>
+</p>
+
+<br />
+
+<p align="center">
+  <img src="./assets/profile/h-about.svg" width="100%" alt="Know About Me" />
+</p>
+
+<img align="left" src="./assets/char.png" width="26%" alt="A little monochrome character with a ghost above his head" />
+
+<h3><img src="./assets/profile/h-hey.svg" height="82" alt="Hey there! I'm Fahri" /></h3>
+
+I'm a **Software Engineering student at Mandiri Vocational School** who loves turning ideas into websites. Most of my time goes into building pages, trying out new things, and figuring out why that one line of code won't behave. Web development is both what I study and what I do for fun. When I'm not making websites, you'll probably find me gaming — swapping bugs for boss fights.
+
+<br clear="both" />
+
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
+
+<img align="right" src="./assets/snorlax.gif" width="25%" alt="An animated pixel-art Snorlax taking a break" />
+
+<h3><img src="./assets/profile/h-projects.svg" height="82" alt="Top Projects" /></h3>
+
+**[PORTFOLIO](https://github.com/Fahrifayfay/fahri.github.io)**  
+My personal corner of the web — a place to introduce myself and share my work.
+
+**[FBS UNIMED](https://github.com/Fahrifayfay/fbsunimed.github.io)**  
+A faculty landing page built during my learning and internship journey.
+
+**[KEBAB SUMATERA](https://github.com/Fahrifayfay/kebabsumatera)**  
+A business website project for Kebab Sumatera.
+
+<br clear="both" />
+
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/h-stack.svg" width="100%" alt="Tech Stack" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/l-dev.svg" width="100%" alt="Development" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,php,mysql,python,cpp,git,github&theme=dark&perline=10" alt="HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Python, C++, Git, GitHub" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/l-design.svg" width="100%" alt="Design and Cloud" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,firebase,cloudflare,apache&theme=dark&perline=6" alt="Figma, Photoshop, Illustrator, Firebase, Cloudflare, Apache" />
+  <br />
+  <img src="https://img.shields.io/badge/Chart.js-111111?style=for-the-badge&logo=chart.js&logoColor=FF6384" alt="Chart.js" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/h-connect.svg" width="100%" alt="Connect" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Fahrifayfay"><img src="./assets/profile/github.svg" alt="GitHub" /></a>
+  <a href="https://instagram.com/pyoovll_"><img src="./assets/profile/instagram.svg" alt="Instagram" /></a>
+  <a href="mailto:frilz4501@gmail.com"><img src="./assets/profile/email.svg" alt="Email" /></a>
+  <a href="https://tiktok.com/@skyfzz_"><img src="./assets/profile/tiktok.svg" alt="TikTok" /></a>
+</p>
+
+<br />
+
+> A little curiosity, a lot of trial and error, and one more website.
+>
+> Still learning. Still building. Still improving.
+
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/h-contrib.svg" width="100%" alt="Contribution" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Fahrifayfay?tab=overview">
+    <img src="./assets/profile/contributions.svg" width="100%" alt="Fahri's daily GitHub contributions over the last 30 days. Open my profile to see live activity." />
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
+
+<!-- Stats SVGs are generated from public GitHub data by scripts/update_profile.py (runs daily via .github/workflows/update-profile.yml).
+     Static headings/pills are generated by scripts/gen_static_assets.py. -->
