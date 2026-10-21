@@ -11,23 +11,6 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile/tagline.svg" width="100%" alt="Still learning. Still building. Still improving." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/stars.svg" alt="Stars across my public repositories" /></a>
-  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/forks.svg" alt="Forks of my public repositories" /></a>
-  <a href="https://github.com/Fahrifayfay?tab=followers"><img src="./assets/profile/followers.svg" alt="GitHub followers" /></a>
-  <br />
-  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/watchers.svg" alt="People watching my public repositories" /></a>
-  <a href="https://github.com/Fahrifayfay"><img src="./assets/profile/age.svg" alt="How long I have been on GitHub" /></a>
-  <br />
-  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/languages.svg" alt="My most used languages across public repositories" /></a>
-</p>
-
-<br />
-
-<p align="center">
   <img src="./assets/profile/h-about.svg" width="100%" alt="Know About Me" />
 </p>
 
@@ -40,6 +23,27 @@
   Most of my time goes into building pages, trying out new things, and figuring out why that one line of code won't behave.
   Web development is both what I study and what I do for fun.
   When I'm not making websites, you'll probably find me gaming — swapping bugs for boss fights.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="./assets/profile/line.svg" width="100%" alt="" />
+</p>
+
+<p align="center">
+  <img src="./assets/profile/tagline.svg" width="100%" alt="Still learning. Still building. Still improving." />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/stars.svg" alt="Stars across my public repositories" /></a>
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/forks.svg" alt="Forks of my public repositories" /></a>
+  <a href="https://github.com/Fahrifayfay?tab=followers"><img src="./assets/profile/followers.svg" alt="GitHub followers" /></a>
+  <br />
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/watchers.svg" alt="People watching my public repositories" /></a>
+  <a href="https://github.com/Fahrifayfay"><img src="./assets/profile/age.svg" alt="How long I have been on GitHub" /></a>
+  <br />
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/languages.svg" alt="My most used languages across public repositories" /></a>
 </p>
 
 <br />
