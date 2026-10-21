@@ -18,6 +18,11 @@
   <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/stars.svg" alt="Stars across my public repositories" /></a>
   <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/forks.svg" alt="Forks of my public repositories" /></a>
   <a href="https://github.com/Fahrifayfay?tab=followers"><img src="./assets/profile/followers.svg" alt="GitHub followers" /></a>
+  <br />
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/watchers.svg" alt="People watching my public repositories" /></a>
+  <a href="https://github.com/Fahrifayfay"><img src="./assets/profile/age.svg" alt="How long I have been on GitHub" /></a>
+  <br />
+  <a href="https://github.com/Fahrifayfay?tab=repositories"><img src="./assets/profile/languages.svg" alt="My most used languages across public repositories" /></a>
 </p>
 
 <br />
@@ -73,7 +78,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,php,mysql,python,cpp,git,github&theme=dark&perline=10" alt="HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Python, C++, Git, GitHub" />
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,js,php,mysql,python,cpp,git,github,ts,react,vue,nextjs,nodejs,tailwind,laravel,java,kotlin,c,cs,go,rust,dart,ruby,swift,bash,lua,perl,r&theme=dark&perline=10" alt="HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Python, C++, Git, GitHub, TypeScript, React, Vue, Next.js, Node.js, Tailwind, Laravel, Java, Kotlin, C, C#, Go, Rust, Dart, Ruby, Swift, Bash, Lua, Perl, R" />
 </p>
 
 <p align="center">
