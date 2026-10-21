@@ -10,6 +10,8 @@
 @keyframes fade{0%,6%{opacity:0}16%{opacity:1}86%{opacity:1}94%,100%{opacity:0}}
 .bar{transform-box:fill-box;transform-origin:50% 100%;transform:scaleY(0);animation:grow 8s cubic-bezier(.2,.8,.2,1) infinite both}
 @keyframes grow{0%{transform:scaleY(0)}18%{transform:scaleY(1.06)}22%{transform:scaleY(1)}86%{transform:scaleY(1)}94%,100%{transform:scaleY(0)}}
+.seg{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:segin 8s cubic-bezier(.2,.8,.2,1) infinite both}
+@keyframes segin{0%{transform:scaleX(0)}20%{transform:scaleX(1)}86%{transform:scaleX(1)}94%,100%{transform:scaleX(0)}}
 .trace{fill:none;stroke:var(--acc);stroke-width:2;stroke-linecap:round;animation:run 3.6s linear infinite}
 @keyframes run{to{stroke-dashoffset:-562}}
 .base{fill:none;stroke:var(--line);stroke-width:1.5}
